@@ -26,7 +26,70 @@
         </nav>
         
         <main>
+            <h3>HOBBY COOKER &nbsp; &#36;4.99/month</h3>
+            <ul>
+                <li>Access to the last 6 months of featured plates</li>
+                <li>Monthly email newsletter</li>
+            </ul>
+            <h3>CUISINER &nbsp; &#36;9.99/month</h3>
+            <ul>
+                <li>Access to the last 12 months of featured plates</li>
+                <li>Monthly email newsletter</li>
+                <li>Access to member forums</li>
+            </ul>
+            <h3>SOUS CHEF &nbsp; &#36;14.99</h3>
+            <ul>
+                <li>Unlimited Access to all previous featured plates</li>
+                <li>Monthly email newsletter + magazine subscription</li>
+                <li>Access to member forums</li>
+                <li>Unlimited contact access to on-staff chefs with Two Plates</li>
+                <li>Ability to submit a meal and be featured in our monthly magazine</li>
+            </ul>
             
+            <form>
+                <label for="nameinput">Name</label>
+                <input type="text" id="nameinput" name="name" required="required" /><br>
+                <label for="emailinput">Email</label>
+                <input type="text" id="emailinput" name="email" required="required" /><br>
+                <label for="phoneinput">Phone</label>
+                <input type="number" id="phoneinput" name="phone" required="required" /><br>
+                <label for="birth1">Birthday</label>
+                <input type="number" id="birth1" name="birth1" class="birth" max="2" required="required" /><br>
+                <label for="birth2" id="birth2label">Birthday (continued)</label>
+                <input type="number" id="birth2" name="birth2" class="birth" max="2" required="required" /><br>
+                <label for="birth3" id="birth3label">Birthday (end)</label>
+                <input type="number" id="birth3" name="birth3" class="birth" max="4" required="required" /><br>
+                <!--or this might be legend-->
+                <!--<legend>Where did you hear about us?</legend>-->
+                <label for="hear">Where did you hear about us?</label><br>
+                <select id="hearlist" name="hearlist">
+                    <option value="facebook">Facebook</option>
+                    <option value="google">Google</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="magazine">Magazine</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                </select>
+                <legend>Subscription Plan</legend>
+                <input type="radio" name="subscription" id="hobby" value="Hobby Cooker" />
+                <label for="hobby">Hobby Cooker</label>
+                <input type="radio" name="subscription" id="cuisiner" value="Cuisiner" />
+                <label for="cuisiner">Cuisiner</label>
+                <input type="radio" name="subscription" id="sous" value="Sous Chef" />
+                <label for="sous">Sous Chef</label>
+                <hr>
+                <label for="cardinput">Credit Card Number</label>
+                <input type="number" id="cardinput" name="cardinput" required="required" /><br>
+                <label for="exp1">Expiration Date</label>
+                <input type="number" id="exp1" name="exp1" class="exp" min="2" max="2" required="required" />
+                <label for="exp2" id="exp2input">Expiration Date (end)</label>
+                <input type="number" id="exp2" name="exp2" class="exp" min="2" max="2" required="required" />
+                <label for="cvv">CVV</label>
+                <input type="number" id="cvv" name="cvv" min = "3" max="3" required="required" />
+                <fiedlset id="submit">
+                    <input type="submit" id="submitBtn" value="Submit" />
+                </fiedlset>
+            </form> 
         </main>
 
         <footer>
