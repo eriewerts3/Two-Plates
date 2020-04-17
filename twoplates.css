@@ -27,25 +27,28 @@ body  {font-family: Arial, Helvetica, sans-serif;}
 /* Style the navigation bar */
 nav {
     overflow: hidden;
-    background-color: #199290;
+    background-color: #fff; /*changed from #199290*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+    /*added borders*/
+    border-top: 2px solid #199290;
+    border-bottom: 2px solid #199290;
   }
 /* Style the nav links */
 nav a {
     float: left;
     display: block;
-    color: #fff;
+    color: #199290; /*changed from #fff*/
     text-align: center;
     padding: 2px 10px;
     text-decoration: none;
-    font-size: larger; 
+    font-size: 1.75em; /**/
   }
 /* Change color on hover */
 nav a:hover {
-    background-color: #fff;
-    color: black;
+    background-color: #199290; /*changed from #fff*/
+    color: #fff; /*changed from #000*/
   }
 
 #index {text-align: center;}
@@ -121,3 +124,16 @@ p  {font-size: 1.2em;
   padding-right: 50px;}
 
 .flow	{display: block;}
+
+
+/*Added media queries to adjust nav bar for phone and tablet sizes.*/
+@media only screen and (max-width: 635px) {
+	    nav {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+@media only screen and (max-width: 1024px) {
+      nav a {font-size: larger;}
+    }
