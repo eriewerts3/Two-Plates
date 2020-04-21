@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Plates - Two Plates</title>
+        <link rel="stylesheet" href="twoplates.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Two Plates is a online company offering a monthly series of a variety of recipies from Norway and Ghana">
@@ -10,58 +11,78 @@
     <body>
         <!-- Title Bar -->
         <div>
-            <h1>O Two Plates O</h1>
+            <img src="images/header.png" alt="Two Plates title with green plates on either side" style="width: 100%; height: auto;">
         </div>
-        <!-- Nav Bar -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="plates.html">Plates</a></li>
-                <li><a href="norway.html">Norway</a></li>
-                <li><a href="ghana.html">Ghana</a></li>
-                <li><a href="subscribe.html">Subscribe</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="references.html">References</a></li>
-            </ul>
-        </nav>
+       <!-- Nav Bar -->
+       <nav>
+           <a href="index.html">Home</a>
+           <a href="plates.html">Plates</a>
+           <a href="norway.html">Norway</a>
+           <a href="ghana.html">Ghana</a>
+           <a href="subscribe.html">Suscribe</a>
+           <a href="about.html">About Us</a>
+           <a href="references.html">References</a>
+       </nav>
 
         <main>
-            <h2>Plates</h2>
+            <div id="index">
+                <h2>Plates</h2>
 
-            <h3>Featured This Month</h3>
+                <h3>Featured This Month</h3>
+            </div>
             <!-- Containter to hold both linked nation sections -->
-            <div>
-                <a href="norway.html">
-                    <section>
-                        <h3>Norway</h3>
-                        <img src="images/placeholder.jpg" alt="Placeholder image" width="auto">
-                    </section>
-                </a>
-                <a href="ghana.html">
-                    <section>
-                        <h3>Ghana</h3>
-                        <img src="images/placeholder.jpg" alt="Placeholder image" width="auto">
-                    </section>
-                </a>
+            <div class="regions">
+                <div id="leftwrapper">
+                    <div class="gallery">
+                        <a href="norway.html"></a>
+                            <a target="_blank" href="images/placeholder.jpg">
+                                <div class="desc">Norway</div>
+                                <img src="images/placeholder.jpg" alt="norway food" width="600" height="400">
+                        </a>       
+                    </div>
+                </div>
+                <div id="rightwrapper">
+                    <div class="gallery">
+                        <a href="ghana.html"></a>
+                            <a target="_blank" href="images/placeholder.jpg">
+                                <div class="desc">Ghana</div>
+                                <img src="images/placeholder.jpg" alt="norway food" width="600" height="400">
+                            </a>       
+                    </div>
+                </div>
             </div>
-
-            <h3>Past Plates</h3>
-            <!-- Container for Scrolling slide show of images -->
-            <div>
-                <img src="images/placeholder.jpg" alt="Placeholder" width="auto"><br>
+            <div id="centerwrapper">
+                <div class="gallery">
+                    <a href="subscribe.html"></a>
+                            <a target="_blank" href="images/placeholder.jpg">
+                                <div class="desc">Past Plates<br><h4>Subscribe For More Recipies!</h4></div>
+                                <img src="images/placeholder.jpg" alt="norway food" width="600" height="400">
+                            </a>
+                </div>
+                
             </div>
-            
-            <!-- Linked subscription text -->
-            <h3>
-                <a href="subrsibe.html">Subscribe here for past recipies!</a>
-            </h3>
         </main>
 
         <footer>
-            Copyright &copy;  &nbsp; Two Plates <br>
-            <a href="mailtto:edward.riewerts@ndus.edu">edward.riewerts@ndus.edu</a><br>
-            <a href="mailto:samantha.holly@bismarkstate.edu">samantha.holly@bismarkstate.edu</a><br>
-            <a href="tara.speak@bismarkstate.edu">tara.speak@bismarkstate.edu</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="plates.html">Plates</a>
+                <a href="norway.html">Norway</a>
+                <a href="ghana.html">Ghana</a>
+                <a href="suscribe.html">Suscribe</a>
+                <a href="about.html">About Us</a>
+                <a href="references.html">References</a>
+            </nav>
+            Copyright &copy; 2020 Two Plates <br>
+            <a href="twoplates@support.com">twoplates@support.com</a><br>
+            This page was last modified on: <script>document.write(document.lastModified);</script>
+	        <p>
+		        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" />
+                </a>
+	        </p>
         </footer>
     </body>
 </html>
