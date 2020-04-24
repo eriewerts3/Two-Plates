@@ -1,5 +1,5 @@
 /*Tara Speak
-	4/9/2020
+	4/21/2020
 	Filename: twoplates.css
 	Attached to files: index.html, plates.html, norway.html, ghana.html, subscribe.html, about.html, references.html
 */
@@ -17,12 +17,6 @@ Color palete:
 
 body  {font-family: Arial, Helvetica, sans-serif;}
 
-.content {
-    color: #000;
-    text-align: center;
-    background-color: #fff;
-    padding: 5px;
-  }
 
 /* Style the navigation bar */
 nav {
@@ -53,7 +47,7 @@ nav a:hover {
 
 #index {text-align: center;}
 
-main {padding: 30px}
+main {padding: 10px}
 
 #leftwrapper { 
   width: 85%; margin: auto;
@@ -79,15 +73,45 @@ main {padding: 30px}
   position: relative;	
 }
 
+#centerwrapper  {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.countrywrapper {
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+.img_float_right{
+  float: right;
+}
+
+.img_float_left{
+  float: left;
+}
+
 .regions {
   display: table;
   clear: both;
+  width: 100%; /*To fix the issue with sizing the ghana and norway pictures*/
 }
+
+/*This changes the link appearance on div hyperlinks specifically made for the image page links*/
+div a:link  {text-decoration: none;
+            color: #fff;
+            font-size: 2em;
+            font-weight: bolder;
+          }
+
+div a:hover {text-decoration: underline;}
 
 /* Gallery containter for images with labels attached */
 div.gallery {
   margin: auto;
   border: 1px solid #ccc;
+  background-color: #199290;
 }
   div.gallery:hover {
     border: 1px solid #777;
@@ -118,7 +142,9 @@ footer {
 }
 
 h1  {font-size: 10vw;}
-h2  {font-size: 2.5em;}
+h2  {font-size: 4em;}
+h3  {font-size: 2em;}
+h4  {font-size: .55em;}
 p  {font-size: 1.2em;
   padding-left: 50px;
   padding-right: 50px;}
