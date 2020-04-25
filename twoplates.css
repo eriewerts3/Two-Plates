@@ -146,8 +146,13 @@ h2  {font-size: 4em;}
 h3  {font-size: 2em;}
 h4  {font-size: .55em;}
 p  {font-size: 1.2em;
-  padding-left: 50px;
-  padding-right: 50px;}
+  text-align: center;
+  max-width: 1150px; /*prevents the text from being stretched out too far*/
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
+  padding: 25px;}
 
 .flow	{display: block;}
 
