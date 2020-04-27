@@ -47,37 +47,35 @@ nav a:hover {
 
 #index {text-align: center;}
 
-main {padding: 10px}
+main {padding: 15px}
 
 #leftwrapper { 
-  width: 85%; margin: auto;
-  padding: 2em;
-  line-height: 150%;
+  width: 85%;
+  line-height: 200%;
   float: left;
   width: 50%;
-  height: 80vh;
   padding: 1em;
-  padding-top: 3em;
   position: relative;	
 }
 
 #rightwrapper { 
-  width: 85%; margin: auto;
-  padding: 2em;
-  line-height: 150%;
+  width: 85%;
+  line-height: 200%;
   float: right;
   width: 50%;
-  height: 80vh;
+
   padding: 1em;
-  padding-top: 3em;
   position: relative;	
 }
 
+/*For index page for subscribe image link*/
 #centerwrapper  {display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+/*For Norway and Ghana pages*/
 .countrywrapper {
   display: block;
   margin: auto;
