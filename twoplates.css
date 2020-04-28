@@ -47,37 +47,35 @@ nav a:hover {
 
 #index {text-align: center;}
 
-main {padding: 10px}
+main {padding: 15px}
 
 #leftwrapper { 
-  width: 85%; margin: auto;
-  padding: 2em;
-  line-height: 150%;
+  width: 85%;
+  line-height: 200%;
   float: left;
   width: 50%;
-  height: 80vh;
   padding: 1em;
-  padding-top: 3em;
   position: relative;	
 }
 
 #rightwrapper { 
-  width: 85%; margin: auto;
-  padding: 2em;
-  line-height: 150%;
+  width: 85%;
+  line-height: 200%;
   float: right;
   width: 50%;
-  height: 80vh;
+
   padding: 1em;
-  padding-top: 3em;
   position: relative;	
 }
 
+/*For index page for subscribe image link*/
 #centerwrapper  {display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+/*For Norway and Ghana pages*/
 .countrywrapper {
   display: block;
   margin: auto;
@@ -174,13 +172,16 @@ main {padding: 10px}
 
 
 /*This changes the link appearance on div hyperlinks specifically made for the image page links*/
-div a:link  {text-decoration: none;
-            color: #fff;
+div a:link, 
+div a:visited  {text-decoration: none;
+            color: #ffffff;
             font-size: 2em;
             font-weight: bolder;
           }
 
-div a:hover {text-decoration: underline;}
+div a:hover {text-decoration: underline;
+            color: #d3d3d3;
+}
 
 /* Gallery containter for images with labels attached */
 div.gallery {
@@ -200,6 +201,7 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+    text-decoration: none;
   }
           
 .main div {
@@ -221,8 +223,13 @@ h2  {font-size: 4em;}
 h3  {font-size: 2em;}
 h4  {font-size: .55em;}
 p  {font-size: 1.2em;
-  padding-left: 50px;
-  padding-right: 50px;}
+  text-align: center;
+  max-width: 1150px; /*prevents the text from being stretched out too far*/
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
+  padding: 25px;}
 
 .flow	{display: block;}
 
