@@ -226,6 +226,24 @@ p  {font-size: 1.2em;
 
 .flow	{display: block;}
 
+/* remove arrows in form number input in Chrome, Safari, Edge */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin:0;
+}
+
+/* remove arrows in form number input in Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.required { 
+  font-size: smaller;
+  color: #98989c;
+  text-align: left;
+}
+
 
 /*Added media queries to adjust nav bar for phone and tablet sizes.*/
 @media only screen and (max-width: 635px) {
