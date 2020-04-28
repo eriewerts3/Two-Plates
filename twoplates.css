@@ -97,13 +97,16 @@ main {padding: 15px}
 }
 
 /*This changes the link appearance on div hyperlinks specifically made for the image page links*/
-div a:link  {text-decoration: none;
-            color: #fff;
+div a:link, 
+div a:visited  {text-decoration: none;
+            color: #ffffff;
             font-size: 2em;
             font-weight: bolder;
           }
 
-div a:hover {text-decoration: underline;}
+div a:hover {text-decoration: underline;
+            color: #d3d3d3;
+}
 
 /* Gallery containter for images with labels attached */
 div.gallery {
@@ -123,6 +126,7 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+    text-decoration: none;
   }
           
 .main div {
