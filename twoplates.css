@@ -45,7 +45,7 @@ nav a:hover {
     color: #fff; /*changed from #000*/
   }
 
-#index {text-align: center;}
+.index {text-align: center;}
 
 main {padding: 15px}
 
@@ -207,7 +207,7 @@ div.gallery {
     text-align: center;
     text-decoration: none;
   }
-          
+
 .main div {
   flex: 1;
 }
@@ -257,6 +257,14 @@ input[type=number] {
   text-align: left;
 }
 
+/*Style settings for table in subscription page*/
+table	{border: 3px #199290 solid;
+  margin-bottom: 1em;
+  min-width: 200px;
+  border-collapse: collapse;}
+  td, th	{padding: 7px;
+      border: 2px #199290 solid;}
+  tr:nth-of-type(odd)	{background: rgba(25, 146, 144, 0.3);}
 
 /*Added media queries to adjust nav bar for phone and tablet sizes.*/
 @media only screen and (max-width: 635px) {
