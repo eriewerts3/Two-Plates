@@ -176,28 +176,30 @@ main {padding: 15px}
 /*This changes the link appearance on div hyperlinks specifically made for the image page links*/
 div a:link, 
 div a:visited  {text-decoration: none;
-            color: #ffffff;
+            color: #199290;
             font-size: 2em;
             font-weight: bolder;
           }
 
 div a:hover {text-decoration: underline;
-            color: #d3d3d3;
+            color: #000;
 }
 
 /* Gallery containter for images with labels attached */
 div.gallery {
-  margin: auto;
-  border: 1px solid #ccc;
-  background-color: #199290;
+  margin: 5%;
+  border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
+  padding: 2em;
 }
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 3px solid #199290;
   }
       
   div.gallery img {
     width: 100%;
     height: auto;
+    border: 30px solid #fff;
   }
       
   div.desc {
