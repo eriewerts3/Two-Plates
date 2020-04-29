@@ -96,6 +96,18 @@ main {padding: 15px}
   width: 100%; /*To fix the issue with sizing the ghana and norway pictures*/
 }
 
+/*Recipe formatting*/
+
+.reciperight  {border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);
+  margin: 15px 15px 15px 325px;
+  padding: 0px 10px 0px 10px;}
+
+.recipeleft {border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);
+  margin:15px 325px 15px 15px;
+  padding: 0px 10px 0px 10px;}
+
 /* photo slideshow */
 
 .slide-container {
@@ -234,6 +246,7 @@ p  {font-size: 1.2em;
   border: 5px solid #199290;
   background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
   padding: 25px;}
+
 
 th { text-align: left; }
 
