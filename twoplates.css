@@ -233,6 +233,8 @@ p  {font-size: 1.2em;
   background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
   padding: 25px;}
 
+th { text-align: left; }
+
 .flow	{display: block;}
 
 /* remove arrows in form number input in Chrome, Safari, Edge */
