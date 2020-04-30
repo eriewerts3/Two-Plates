@@ -15,7 +15,8 @@ Color palete:
 *	{box-sizing: border-box;
 } /*includes padding and border in the total width and height of div tag*/
 
-body  {font-family: Arial, Helvetica, sans-serif;}
+body  {font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /* Style the navigation bar */
@@ -45,9 +46,12 @@ nav a:hover {
     color: #fff; /*changed from #000*/
   }
 
-.index {text-align: center;}
+.index {text-align: center;
+}
 
-main {padding: 15px}
+.directions {align-items: center;}
+
+main {padding: 25px;}
 
 #leftwrapper { 
   width: 85%;
@@ -63,7 +67,6 @@ main {padding: 15px}
   line-height: 200%;
   float: right;
   width: 50%;
-
   padding: 1em;
   position: relative;	
 }
@@ -82,12 +85,17 @@ main {padding: 15px}
   padding: 10px;
 }
 
-.img_float_right{
+.img_float_right{border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);
   float: right;
+  padding: 1em;
 }
 
-.img_float_left{
+.img_float_left{border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);
   float: left;
+  padding: 1em;
+  margin-right: 30px;
 }
 
 .regions {
@@ -100,13 +108,17 @@ main {padding: 15px}
 
 .reciperight  {border: 5px solid #199290;
   background: rgba(25, 146, 144, 0.1);
-  margin: 15px 15px 15px 325px;
-  padding: 0px 10px 0px 10px;}
+  margin: 30px 15px 30px 570px;
+  padding: 0px 10px 0px 10px;
+  font-size: larger;
+}
 
 .recipeleft {border: 5px solid #199290;
   background: rgba(25, 146, 144, 0.1);
-  margin:15px 325px 15px 15px;
-  padding: 0px 10px 0px 10px;}
+  margin:30px 570px 30px 15px;
+  padding: 0px 10px 0px 10px;
+  font-size: larger;
+}
 
 /* photo slideshow */
 
