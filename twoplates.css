@@ -45,7 +45,7 @@ nav a:hover {
     color: #fff; /*changed from #000*/
   }
 
-#index {text-align: center;}
+.index {text-align: center;}
 
 main {padding: 15px}
 
@@ -95,6 +95,18 @@ main {padding: 15px}
   clear: both;
   width: 100%; /*To fix the issue with sizing the ghana and norway pictures*/
 }
+
+/*Recipe formatting*/
+
+.reciperight  {border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);
+  margin: 15px 15px 15px 325px;
+  padding: 0px 10px 0px 10px;}
+
+.recipeleft {border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);
+  margin:15px 325px 15px 15px;
+  padding: 0px 10px 0px 10px;}
 
 /* photo slideshow */
 
@@ -176,28 +188,30 @@ main {padding: 15px}
 /*This changes the link appearance on div hyperlinks specifically made for the image page links*/
 div a:link, 
 div a:visited  {text-decoration: none;
-            color: #ffffff;
+            color: #199290;
             font-size: 2em;
             font-weight: bolder;
           }
 
 div a:hover {text-decoration: underline;
-            color: #d3d3d3;
+            color: #000;
 }
 
 /* Gallery containter for images with labels attached */
 div.gallery {
-  margin: auto;
-  border: 1px solid #ccc;
-  background-color: #199290;
+  margin: 5%;
+  border: 5px solid #199290;
+  background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
+  padding: 2em;
 }
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 3px solid #199290;
   }
       
   div.gallery img {
     width: 100%;
     height: auto;
+    border: 30px solid #fff;
   }
       
   div.desc {
@@ -205,7 +219,7 @@ div.gallery {
     text-align: center;
     text-decoration: none;
   }
-          
+
 .main div {
   flex: 1;
 }
@@ -233,6 +247,7 @@ p  {font-size: 1.2em;
   background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
   padding: 25px;}
 
+
 th { text-align: left; }
 
 .flow	{display: block;}
@@ -255,6 +270,14 @@ input[type=number] {
   text-align: left;
 }
 
+/*Style settings for table in subscription page*/
+table	{border: 3px #199290 solid;
+  margin-bottom: 1em;
+  min-width: 200px;
+  border-collapse: collapse;}
+  td, th	{padding: 7px;
+      border: 2px #199290 solid;}
+  tr:nth-of-type(odd)	{background: rgba(25, 146, 144, 0.3);}
 
 /*Added media queries to adjust nav bar for phone and tablet sizes.*/
 @media only screen and (max-width: 635px) {
