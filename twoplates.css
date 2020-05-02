@@ -47,7 +47,7 @@ nav a:hover {
 main {padding: 15px}
 
 .logo {
-  font-size: 5vw;
+  font-size: 3vw;
   text-align: center;
   font-weight: bold;
 }
@@ -68,7 +68,6 @@ main {padding: 15px}
   line-height: 200%;
   float: right;
   width: 50%;
-
   padding: 1em;
   position: relative;	
 }
