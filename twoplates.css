@@ -17,7 +17,6 @@ Color palete:
 
 body  {font-family: Arial, Helvetica, sans-serif;}
 
-
 /* Style the navigation bar */
 nav {
     overflow: hidden;
@@ -45,9 +44,15 @@ nav a:hover {
     color: #fff; /*changed from #000*/
   }
 
-.index {text-align: center;}
-
 main {padding: 15px}
+
+.logo {
+  font-size: 5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.index {text-align: center;}
 
 #leftwrapper { 
   width: 85%;
