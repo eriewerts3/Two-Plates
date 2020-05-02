@@ -45,7 +45,7 @@ nav a:hover {
     color: #fff; /*changed from #000*/
   }
 
-.index {text-align: center;}
+.index {text-align: left;}
 
 main {padding: 15px}
 
