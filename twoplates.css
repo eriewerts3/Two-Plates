@@ -45,9 +45,34 @@ nav a:hover {
     color: #fff; /*changed from #000*/
   }
 
-.index {text-align: left;}
+.index {text-align: center;}
+
+.subscribe {text-align: left;}
 
 main {padding: 15px}
+
+/* Configure about us section */
+
+#about { 
+  text-align: center;
+}
+
+.about-image {
+  border: 2px solid #199290;
+}
+
+dd {
+  padding-top: 10px;
+  text-align: center;
+}
+
+dt { 
+  color: #199290;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  }
+
 
 #leftwrapper { 
   width: 85%;
