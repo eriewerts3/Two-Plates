@@ -55,7 +55,35 @@ main {padding: 25px;}
   font-weight: bold;
 }
 
+.subscribe {text-align: left;}
+
+main {padding: 15px}
+
 .index {text-align: center;}
+
+
+/* Configure about us section */
+
+#about { 
+  text-align: center;
+}
+
+.about-image {
+  border: 2px solid #199290;
+}
+
+dd {
+  padding-top: 10px;
+  text-align: center;
+}
+
+dt { 
+  color: #199290;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  }
+
 
 #leftwrapper { 
   width: 85%;
@@ -193,11 +221,21 @@ main {padding: 25px;}
 
 #past-plates {
   clear: both;
+  color: #199290;
   font-size: 2em;
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 30px;
   font-weight: bold;
+  text-align: center;
+
+}
+
+#subscribe {
+  clear: both;
+  padding-bottom: 10px;
+  font-size: smaller;
+  color: #98989c;
+  text-align: center;
+  margin: auto;
+  position: relative;
 }
 
 
