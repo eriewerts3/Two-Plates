@@ -75,6 +75,10 @@ main {padding: 15px}
 dd {
   padding-top: 10px;
   text-align: center;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 dt { 
@@ -342,6 +346,21 @@ table	{border: 3px #199290 solid;
         display: flex;
         flex-wrap: wrap;
       }
+      .regions {
+        display: inline;
+        position: relative;
+        clear: both;
+        width: 100%; /*To fix the issue with sizing the ghana and norway pictures*/
+      }
+      #leftwrapper  {float: none;
+      align-items: center;}
+      #rightwrapper {float: none;}
+
+      h1  {font-size: 10vw;}
+      h2  {font-size: 2.5em;
+      margin-block-start: 0.4em;
+      margin-block-end: 0.4em;}
+      h3  {font-size: 1.5em;}
     }
 @media only screen and (max-width: 1024px) {
       nav a {font-size: larger;}
