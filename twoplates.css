@@ -14,7 +14,7 @@ Color palete:
 
 *	{box-sizing: border-box;
 } /*includes padding and border in the total width and height of div tag*/
-
+a {text-decoration: none;}
 body  {font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -281,7 +281,7 @@ dt {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-
+  text-decoration: none;
 }
 
 #subscribe {
@@ -292,6 +292,7 @@ dt {
   text-align: center;
   margin: auto;
   position: relative;
+  text-decoration: none;
 }
 
 
@@ -449,8 +450,7 @@ table	{border: 3px #199290 solid;
       .regions {
         display: inline;
         position: relative;
-        clear: both;
-        width: 100%; 
+        clear: both; 
       }
       div.gallery {
         margin: 5%;
