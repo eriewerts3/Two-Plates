@@ -90,7 +90,6 @@ dt {
 
 
 #leftwrapper { 
-  width: 85%;
   line-height: 200%;
   float: left;
   width: 50%;
@@ -99,7 +98,6 @@ dt {
 }
 
 #rightwrapper { 
-  width: 85%;
   line-height: 200%;
   float: right;
   width: 50%;
@@ -340,7 +338,7 @@ table	{border: 3px #199290 solid;
   tr:nth-of-type(odd)	{background: rgba(25, 146, 144, 0.3);}
 
 /*Added media queries to adjust nav bar for phone and tablet sizes.*/
-@media only screen and (max-width: 635px) {
+@media only screen and (max-width: 800px) {
 	    nav {
         float: none;
         display: flex;
@@ -350,11 +348,26 @@ table	{border: 3px #199290 solid;
         display: inline;
         position: relative;
         clear: both;
-        width: 100%; /*To fix the issue with sizing the ghana and norway pictures*/
+        width: 100%; 
+      }
+      div.gallery {
+        margin: 5%;
+        padding: .5em;
+      }
+      div.gallery img {
+        border: 10px solid #fff;
       }
       #leftwrapper  {float: none;
-      align-items: center;}
-      #rightwrapper {float: none;}
+      line-height: 200%;
+      width: 100%;
+      padding: 0;
+      position: relative;	
+    }
+      #rightwrapper {float: none;
+        line-height: 200%;
+        width: 100%;
+        padding: 0;
+        position: relative;	}
 
       h1  {font-size: 10vw;}
       h2  {font-size: 2.5em;
@@ -364,4 +377,17 @@ table	{border: 3px #199290 solid;
     }
 @media only screen and (max-width: 1024px) {
       nav a {font-size: larger;}
+      div.gallery {
+        margin: 5px;
+        padding: 5px;
+      }
+      div.gallery img {
+        border: 15px solid #fff;
+      }
+      #leftwrapper  {
+        padding: 0;
+      }
+      #rightwrapper  {
+        padding: 0;
+      }
     }
