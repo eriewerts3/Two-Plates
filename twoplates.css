@@ -403,10 +403,10 @@ table	{border: 3px #199290 solid;
         border: 15px solid #fff;
       }
       #leftwrapper  {
-        padding: 0;
+        padding: 0 0 25px 0;
       }
       #rightwrapper  {
-        padding: 0;
+        padding: 0 0 25px 0;
       }
       .img_float_right{
         float: none;
@@ -415,8 +415,8 @@ table	{border: 3px #199290 solid;
       }
       .img_float_left{
         float: none;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 25%;
+        margin-right: 25%;
       }
 
       #meatballs  {width: 100%;}
@@ -450,7 +450,6 @@ table	{border: 3px #199290 solid;
         display: inline;
         position: relative;
         clear: both;
-        width: 100%; 
       }
       div.gallery {
         margin: 5%;
