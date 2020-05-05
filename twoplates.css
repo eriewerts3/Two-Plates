@@ -390,4 +390,25 @@ table	{border: 3px #199290 solid;
       #rightwrapper  {
         padding: 0;
       }
+      .img_float_right{
+        float: none;
+        padding: 0;
+      }
+      .img_float_left{border: 5px solid #199290;
+        background: rgba(25, 146, 144, 0.1);
+        float: none;
+        padding: 0;
+        margin-right: 0;
+      }
+      .reciperight  {border: 5px solid #199290;
+        background: rgba(25, 146, 144, 0.1);
+        margin: 0;
+        font-size: larger;
+      }
+      
+      .recipeleft {border: 5px solid #199290;
+        background: rgba(25, 146, 144, 0.1);
+        margin: 0;
+        font-size: larger;
+      }
     }
