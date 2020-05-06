@@ -75,6 +75,7 @@ main {padding: 15px}
 dd {
   padding-top: 10px;
   text-align: center;
+  margin-inline-end: 40px;
 }
 
 dt { 
