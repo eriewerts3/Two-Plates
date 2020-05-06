@@ -88,6 +88,10 @@ dt {
   text-align: center;
   }
 
+.form-cc {
+  width: 30px;
+}
+
 
 #leftwrapper { 
   line-height: 200%;
