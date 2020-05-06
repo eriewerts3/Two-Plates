@@ -360,6 +360,10 @@ p  {font-size: 1.2em;
   background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
   padding: 25px;}
 
+li {
+  margin: 0 0 10px 0;
+}
+
 
 th { text-align: left; }
 
