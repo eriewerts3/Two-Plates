@@ -42,6 +42,8 @@ nav a {
     padding: 2px 10px;
     text-decoration: none;
     font-size: 1.75em; /**/
+    margin-left: auto;
+    margin-right: auto;
   }
 /* Change color on hover */
 nav a:hover {
@@ -139,6 +141,10 @@ dt {
   background: rgba(25, 146, 144, 0.1);
   float: right;
   padding: 1em;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .img_float_left{
@@ -147,6 +153,10 @@ dt {
   float: left;
   padding: 1em;
   margin-right: 30px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 #meatballs {
