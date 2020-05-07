@@ -1,7 +1,11 @@
-/*Tara Speak
-	4/21/2020
-	Filename: twoplates.css
-	Attached to files: index.html, plates.html, norway.html, ghana.html, subscribe.html, about.html, references.html
+/*
+  CIS 251 Site Design Final Project
+  Samantha Holly, Tara Speak, Edward Riewerts
+  May 8, 2020
+  Two Plates CSS
+  Filename: twoplates.css
+  Attached to files: index.html, plates.html, norway.html, ghana.html, subscribe.html, about.html, references.html, sitemap.html, subscribe-content.html
+  
 */
 
 /*
@@ -45,9 +49,13 @@ nav a:hover {
     color: #fff; /*changed from #000*/
   }
 
-main {padding: 25px;}
+main {
+  padding: 25px;
+}
 
-.directions {align-items: center;}
+.directions {
+  align-items: center;
+}
 
 .logo {
   font-size: 3vw;
@@ -55,11 +63,13 @@ main {padding: 25px;}
   font-weight: bold;
 }
 
-.subscribe {text-align: left;}
+.subscribe {
+  text-align: left;
+}
 
-main {padding: 15px}
-
-.index {text-align: center;}
+.index {
+  text-align: center;
+}
 
 
 /* Configure about us section */
@@ -110,7 +120,8 @@ dt {
 }
 
 /*For index page for subscribe image link*/
-#centerwrapper  {display: block;
+#centerwrapper  {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -123,20 +134,23 @@ dt {
   padding: 10px;
 }
 
-.img_float_right{border: 5px solid #199290;
+.img_float_right{
+  border: 5px solid #199290;
   background: rgba(25, 146, 144, 0.1);
   float: right;
   padding: 1em;
 }
 
-.img_float_left{border: 5px solid #199290;
+.img_float_left{
+  border: 5px solid #199290;
   background: rgba(25, 146, 144, 0.1);
   float: left;
   padding: 1em;
   margin-right: 30px;
 }
 
-#meatballs {height: 300px;
+#meatballs {
+  height: 300px;
   background-image: url(images/meatballs.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -145,7 +159,8 @@ dt {
   margin: 0;
   }
 
-#farikal {height: 300px;
+#farikal {
+  height: 300px;
   background-image: url(images/farikal.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -154,7 +169,8 @@ dt {
   margin: 0;
   }
 
-#ringcake {height: 300px;
+#ringcake {
+  height: 300px;
   background-image: url(images/ring-cake.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -163,7 +179,8 @@ dt {
   margin: 0;
   }
 
-#kelewele {height: 300px;
+#kelewele {
+  height: 300px;
   background-image: url(images/kelewele.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -172,7 +189,8 @@ dt {
   margin: 0;
   }
 
-#goatsoup {height: 300px;
+#goatsoup {
+  height: 300px;
   background-image: url(images/goat-soup.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -181,7 +199,8 @@ dt {
   margin: 0;
   }
 
-#fufu {height: 300px;
+#fufu {
+  height: 300px;
   background-image: url(images/fufu.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -198,21 +217,23 @@ dt {
 
 /*Recipe formatting*/
 
-.reciperight  {border: 5px solid #199290;
+.reciperight  {
+  border: 5px solid #199290;
   background: rgba(25, 146, 144, 0.1);
   margin: 30px 15px 30px 570px;
   padding: 0px 10px 0px 10px;
   font-size: larger;
 }
 
-.recipeleft {border: 5px solid #199290;
+.recipeleft {
+  border: 5px solid #199290;
   background: rgba(25, 146, 144, 0.1);
   margin:30px 570px 30px 15px;
   padding: 0px 10px 0px 10px;
   font-size: larger;
 }
 
-/* photo slideshow */
+/* Format/Configure photo slideshow */
 
 .slide-container {
   width: 800px;
@@ -302,14 +323,16 @@ dt {
 
 /*This changes the link appearance on div hyperlinks specifically made for the image page links*/
 div a:link, 
-div a:visited  {text-decoration: none;
-            color: #199290;
-            font-size: 2em;
-            font-weight: bolder;
-          }
+div a:visited  {
+  text-decoration: none;
+  color: #199290;
+  font-size: 2em;
+  font-weight: bolder;
+}
 
-div a:hover {text-decoration: underline;
-            color: #000;
+div a:hover {
+  text-decoration: underline;
+  color: #000;
 }
 
 /* Gallery containter for images with labels attached */
@@ -349,29 +372,43 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1  {font-size: 10vw;}
-h2  {font-size: 4em;
-margin-block-start: 0.4em;
-margin-block-end: 0.4em;}
-h3  {font-size: 2em;}
-h4  {font-size: .55em;}
-p  {font-size: 1.2em;
+h1  {
+  font-size: 10vw;
+}
+h2  {
+  font-size: 4em;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+h3  {
+  font-size: 2em;
+}
+h4  {
+  font-size: .55em;
+}
+p  {
+  font-size: 1.2em;
   text-align: center;
   max-width: 1150px; /*prevents the text from being stretched out too far*/
   margin-left: auto;
   margin-right: auto;
   border: 5px solid #199290;
   background: rgba(25, 146, 144, 0.1);/*Creates a transparent background to the paragraph elements*/
-  padding: 25px;}
+  padding: 25px;
+}
 
 li {
   margin: 0 0 10px 0;
 }
 
 
-th { text-align: left; }
+th {
+  text-align: left;
+}
 
-.flow	{display: block;}
+.flow	{
+  display: block;
+}
 
 /* remove arrows in form number input in Chrome, Safari, Edge */
 input::-webkit-outer-spin-button,
@@ -392,163 +429,177 @@ input[type=number] {
 }
 
 /*Style settings for table in subscription page*/
-table	{border: 3px #199290 solid;
+table	{
+  border: 3px #199290 solid;
   margin-bottom: 1em;
   min-width: 200px;
-  border-collapse: collapse;}
-  td, th	{padding: 7px;
-      border: 2px #199290 solid;}
-  tr:nth-of-type(odd)	{background: rgba(25, 146, 144, 0.3);}
+  border-collapse: collapse;
+}
+td, th	{
+  padding: 7px;
+  border: 2px #199290 solid;
+}
+tr:nth-of-type(odd)	{
+  background: rgba(25, 146, 144, 0.3);
+}
 
 /*Added media queries to adjust nav bar for phone and tablet sizes.*/
 
 @media only screen and (max-width: 1124px) {
-      nav a {font-size: larger;}
-      div.gallery {
-        margin: 5px;
-        padding: 5px;
-      }
-      div.gallery img {
-        border: 15px solid #fff;
-      }
-      #leftwrapper  {
-        padding: 0 0 25px 0;
-      }
-      #rightwrapper  {
-        padding: 0 0 25px 0;
-      }
-      .img_float_right{
-        float: none;
-        margin-left: 25%;
-        margin-right: 25%;
-      }
-      .img_float_left{
-        float: none;
-        margin-left: 25%;
-        margin-right: 25%;
-      }
+  nav a {font-size: larger;}
+  div.gallery {
+    margin: 5px;
+    padding: 5px;
+  }
+  div.gallery img {
+    border: 15px solid #fff;
+  }
+  #leftwrapper  {
+    padding: 0 0 25px 0;
+  }
+  #rightwrapper  {
+    padding: 0 0 25px 0;
+  }
+  .img_float_right{
+    float: none;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .img_float_left{
+    float: none;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 
-      #meatballs  {width: 100%;}
-      #farikal  {width: 100%;}
-      #ringcake {width: 100%;}
-      #kelewele {width: 100%;}
-      #goatsoup {width: 100%;}
-      #fufu {width: 100%;}
+  #meatballs  {width: 100%;}
+  #farikal  {width: 100%;}
+  #ringcake {width: 100%;}
+  #kelewele {width: 100%;}
+  #goatsoup {width: 100%;}
+  #fufu {width: 100%;}
 
-      .reciperight  {border: 5px solid #199290;
-        background: rgba(25, 146, 144, 0.1);
-        margin: 20px 0 20px 0;
-        font-size: larger;
-      }
-      
-      .recipeleft {border: 5px solid #199290;
-        background: rgba(25, 146, 144, 0.1);
-        margin: 20px 0 20px 0;
-        font-size: larger;
-      }
-    }
+  .reciperight  {border: 5px solid #199290;
+    background: rgba(25, 146, 144, 0.1);
+    margin: 20px 0 20px 0;
+    font-size: larger;
+  }
+  
+  .recipeleft {border: 5px solid #199290;
+    background: rgba(25, 146, 144, 0.1);
+    margin: 20px 0 20px 0;
+    font-size: larger;
+  }
+}
 
 @media only screen and (max-width: 800px) {
 
-	    nav {
-        float: none;
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .regions {
-        display: inline;
-        position: relative;
-        clear: both;
+  nav {
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .regions {
+    display: inline;
+    position: relative;
+    clear: both;
 
-      }
-      div.gallery {
-        margin: 5%;
-        padding: .5em;
-      }
-      div.gallery img {
-        border: 10px solid #fff;
-      }
-      #leftwrapper  {float: none;
-      line-height: 200%;
-      width: 100%;
-      padding: 0;
-      position: relative;	
-      }
-      #rightwrapper {float: none;
-        line-height: 200%;
-        width: 100%;
-        padding: 0;
-        position: relative;	
-      }
+  }
+  div.gallery {
+    margin: 5%;
+    padding: .5em;
+  }
+  div.gallery img {
+    border: 10px solid #fff;
+  }
+  #leftwrapper  {
+  float: none;
+  line-height: 200%;
+  width: 100%;
+  padding: 0;
+  position: relative;	
+  }
+  #rightwrapper {
+  float: none;
+  line-height: 200%;
+  width: 100%;
+  padding: 0;
+  position: relative;	
+  }
 
-      .img_float_right{
-          float: none;
-          margin: 0%;
-        }
-      .img_float_left{
-          float: none;
-          margin: 0%;
-        }
-  
-      #meatballs  {width: 100%;}
+.img_float_right{
+  float: none;
+  margin: 0%;
+}
+.img_float_left{
+  float: none;
+  margin: 0%;
+}
 
-      h1  {font-size: 10vw;}
+#meatballs  {width: 100%;}
 
-      h2  {font-size: 2.5em;
-      margin-block-start: 0.4em;
-      margin-block-end: 0.4em;
-      }
-      h3  {font-size: 1.5em;}
+  h1{
+    font-size: 10vw;
+  }
 
-      /* photo slideshow */
+  h2{
+    font-size: 2.5em;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+  }
 
-      .slide-container {
-        width: 300px;
-        height: 220px;
-      }
+  h3{
+    font-size: 1.5em;
+  }
 
-      .image-container {
-        width: 1500px;
-        height: 220px;
-      }
+  /* photo slideshow */
 
-      .slider-image {
-        float: left;
-        margin: 0px;
-        padding: 0px;
-        width: 20%;
-      }
+  .slide-container {
+    width: 300px;
+    height: 220px;
+  }
 
-      .button-container {
-        top: -40px;
-        position: relative;
-      }
+  .image-container {
+    width: 1500px;
+    height: 220px;
+  }
 
-      .slider-button {
-        display: inline-block;
-        height: 10px;
-        width: 10px;
-        border-radius: 5px;
-        background-color: #199290;
-      }
+  .slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+  }
 
-      #slider-image-1:target ~ .image-container {
-        left: 0px;
-      }
+  .button-container {
+    top: -40px;
+    position: relative;
+  }
 
-      #slider-image-2:target ~ .image-container {
-        left: -300px;
-      }
+  .slider-button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #199290;
+  }
 
-      #slider-image-3:target ~ .image-container{
-        left: -600px;
-      }
+  #slider-image-1:target ~ .image-container {
+    left: 0px;
+  }
 
-      #slider-image-4:target ~ .image-container{
-        left: -900px;
-      }
+  #slider-image-2:target ~ .image-container {
+    left: -300px;
+  }
 
-      #slider-image-5:target ~ .image-container{
-        left: -1200px;
-      }
+  #slider-image-3:target ~ .image-container{
+    left: -600px;
+  }
+
+  #slider-image-4:target ~ .image-container{
+    left: -900px;
+  }
+
+  #slider-image-5:target ~ .image-container{
+    left: -1200px;
+  }
 }
