@@ -20,7 +20,7 @@ Color palete:
 
 *	{box-sizing: border-box;
 } /*includes padding and border in the total width and height of div tag*/
-
+a {text-decoration: none;}
 body  {font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -91,7 +91,9 @@ main {
 dd {
   padding-top: 10px;
   text-align: center;
-  margin-inline-end: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 dt { 
@@ -103,7 +105,6 @@ dt {
 
 
 #leftwrapper { 
-  width: 85%;
   line-height: 200%;
   float: left;
   width: 50%;
@@ -112,7 +113,6 @@ dt {
 }
 
 #rightwrapper { 
-  width: 85%;
   line-height: 200%;
   float: right;
   width: 50%;
@@ -149,6 +149,60 @@ dt {
   padding: 1em;
   margin-right: 30px;
 }
+
+#meatballs {height: 300px;
+  background-image: url(images/meatballs.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 500px;
+  margin: 0;
+  }
+
+#farikal {height: 300px;
+  background-image: url(images/farikal.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 500px;
+  margin: 0;
+  }
+
+#ringcake {height: 300px;
+  background-image: url(images/ring-cake.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 500px;
+  margin: 0;
+  }
+
+#kelewele {height: 300px;
+  background-image: url(images/kelewele.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 500px;
+  margin: 0;
+  }
+
+#goatsoup {height: 300px;
+  background-image: url(images/goat-soup.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 500px;
+  margin: 0;
+  }
+
+#fufu {height: 300px;
+  background-image: url(images/fufu.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 500px;
+  margin: 0;
+  }
 
 .regions {
   display: table;
@@ -247,7 +301,7 @@ dt {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-
+  text-decoration: none;
 }
 
 #subscribe {
@@ -258,6 +312,7 @@ dt {
   text-align: center;
   margin: auto;
   position: relative;
+  text-decoration: none;
 }
 
 
@@ -386,13 +441,154 @@ table	{
   }
 
 /*Added media queries to adjust nav bar for phone and tablet sizes.*/
-@media only screen and (max-width: 635px) {
+
+@media only screen and (max-width: 1124px) {
+      nav a {font-size: larger;}
+      div.gallery {
+        margin: 5px;
+        padding: 5px;
+      }
+      div.gallery img {
+        border: 15px solid #fff;
+      }
+      #leftwrapper  {
+        padding: 0 0 25px 0;
+      }
+      #rightwrapper  {
+        padding: 0 0 25px 0;
+      }
+      .img_float_right{
+        float: none;
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+      .img_float_left{
+        float: none;
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+
+      #meatballs  {width: 100%;}
+      #farikal  {width: 100%;}
+      #ringcake {width: 100%;}
+      #kelewele {width: 100%;}
+      #goatsoup {width: 100%;}
+      #fufu {width: 100%;}
+
+      .reciperight  {border: 5px solid #199290;
+        background: rgba(25, 146, 144, 0.1);
+        margin: 20px 0 20px 0;
+        font-size: larger;
+      }
+      
+      .recipeleft {border: 5px solid #199290;
+        background: rgba(25, 146, 144, 0.1);
+        margin: 20px 0 20px 0;
+        font-size: larger;
+      }
+    }
+
+@media only screen and (max-width: 800px) {
+
 	    nav {
         float: none;
         display: flex;
         flex-wrap: wrap;
       }
-    }
-@media only screen and (max-width: 1024px) {
-      nav a {font-size: larger;}
-    }
+      .regions {
+        display: inline;
+        position: relative;
+        clear: both;
+
+      }
+      div.gallery {
+        margin: 5%;
+        padding: .5em;
+      }
+      div.gallery img {
+        border: 10px solid #fff;
+      }
+      #leftwrapper  {float: none;
+      line-height: 200%;
+      width: 100%;
+      padding: 0;
+      position: relative;	
+      }
+      #rightwrapper {float: none;
+        line-height: 200%;
+        width: 100%;
+        padding: 0;
+        position: relative;	
+      }
+
+      .img_float_right{
+          float: none;
+          margin: 0%;
+        }
+      .img_float_left{
+          float: none;
+          margin: 0%;
+        }
+  
+      #meatballs  {width: 100%;}
+
+      h1  {font-size: 10vw;}
+
+      h2  {font-size: 2.5em;
+      margin-block-start: 0.4em;
+      margin-block-end: 0.4em;
+      }
+      h3  {font-size: 1.5em;}
+
+      /* photo slideshow */
+
+      .slide-container {
+        width: 300px;
+        height: 220px;
+      }
+
+      .image-container {
+        width: 1500px;
+        height: 220px;
+      }
+
+      .slider-image {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        width: 20%;
+      }
+
+      .button-container {
+        top: -40px;
+        position: relative;
+      }
+
+      .slider-button {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 5px;
+        background-color: #199290;
+      }
+
+      #slider-image-1:target ~ .image-container {
+        left: 0px;
+      }
+
+      #slider-image-2:target ~ .image-container {
+        left: -300px;
+      }
+
+      #slider-image-3:target ~ .image-container{
+        left: -600px;
+      }
+
+      #slider-image-4:target ~ .image-container{
+        left: -900px;
+      }
+
+      #slider-image-5:target ~ .image-container{
+        left: -1200px;
+      }
+}
