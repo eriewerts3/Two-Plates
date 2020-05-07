@@ -3,11 +3,9 @@
     CIS 251 Site Design Final Project
     Samantha Holly, Tara Speak, Edward Riewerts
     May 8, 2020
-
     Two Plates Subscription Page
     Filename: subscribe.html
     Supporting files: twoplates.css
-
 -->
 <html lang="en">
     <head>
@@ -41,6 +39,7 @@
           <div class="regions">
           <div id="leftwrapper">
             <div class="subscribe">
+            <!-- Plans and Pricing Content Table -->
             <h3>TWO PLATES PLANS &amp; PRICING</h3>
             </div>
 		        <table>
@@ -72,11 +71,11 @@
                 </tr>
                 <tr>
                   <td colspan="2"><ul>
-                    <li>Unlimited Access to all previous featured plates</li>
+                    <li>Unlimited access to all previously featured plates</li>
                     <li>Monthly email newsletter + magazine subscription</li>
                     <li>Access to member forums</li>
                     <li>Unlimited contact access to on-staff chefs with Two Plates</li>
-                    <li>Ability to submit a meal and be featured in our monthly magazine</li>
+                    <li>Ability to submit a meal to be featured in our monthly magazine</li>
                   </ul></td>
                 </tr>
               </tbody>
@@ -84,6 +83,7 @@
           </div>
           <div id="rightwrapper">
             <div class="subscribe">
+            <!-- Subscription Form -->
             <h3>SIGN UP TODAY!</h3>
             </div>
 		        <form>
@@ -127,11 +127,11 @@
                     <label for="cardinput">*Credit Card Number</label>
                     <input type="number" id="cardinput" name="cardinput" placeholder="xxxx-xxxx-xxxx-xxxx" required="required" /><br>
                     <label for="exp1">*Expiration Date</label>
-                    <input type="number" id="exp1" name="exp1" class="exp" min="2" max="2" required="required" />
+                    <input type="text" id="exp1" name="exp1" maxlength="2" class="form-cc" required="required" />
                     <label for="exp2" id="exp2input">/ </label>
-                    <input type="number" id="exp2" name="exp2" class="exp" min="2" max="2" required="required" />
+                    <input type="text" id="exp2" name="exp2" maxlength="2" class="form-cc" required="required" />
                     <label for="cvv">*CVV</label>
-                    <input type="number" id="cvv" name="cvv" min = "3" max="3" required="required" />
+                    <input type="text" id="cvv" name="cvv" maxlength="3" class="form-cc" required="required" />
                 </fieldset>
                 <button type="submit" id="submitBtn" value="Submit" formaction="subscribe-confirm.html">Submit</button>
                 <span class="required">*Required</span>
@@ -140,6 +140,7 @@
         </div>
         </main>
 
+        <!-- Footer Content -->
         <footer>
           <nav>
               <a href="index.html">Home</a>
@@ -161,6 +162,7 @@
                       alt="Valid CSS!" />
               </a>
           </div>
+          <!-- Last Updated Statement -->
           This page was last modified on: <script>document.write(document.lastModified);</script>
       </footer>
     </body>
