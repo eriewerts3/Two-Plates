@@ -386,8 +386,7 @@ h1  {
 }
 h2  {
   font-size: 4em;
-  margin-block-start: 0.4em;
-  margin-block-end: 0.4em;
+  margin: 0.4em 0.4em;
 }
 h3  {
   font-size: 2em;
@@ -552,8 +551,7 @@ tr:nth-of-type(odd)	{
 
   h2{
     font-size: 2.5em;
-    margin-block-start: 0.4em;
-    margin-block-end: 0.4em;
+    margin: 0.4em 0.4em;
   }
 
   h3{
